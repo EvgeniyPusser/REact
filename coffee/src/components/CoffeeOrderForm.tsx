@@ -15,10 +15,11 @@ export const CoffeeOrderForm: React.FC<Props> = ({ onSubmit }) => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<CoffeeOrder>();
+    reset  } = useForm<CoffeeOrder>();
 
   const onValid: SubmitHandler<CoffeeOrder> = data => {
     onSubmit(data);
+    reset(); // Reset the form after submission
   };
 
   return (
