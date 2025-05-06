@@ -1,0 +1,65 @@
+.coffee-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.coffee-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #0077cc;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 119, 204, 0.5);
+}
+
+.error {
+  display: block;
+  color: red;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #005fa3;
+}
