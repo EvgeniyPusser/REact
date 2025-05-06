@@ -1,8 +1,18 @@
-.coffee-form {
-  max-width: 400px;
-  margin: 2rem auto;
+.coffee-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
   padding: 2rem;
-  background: #fdfdfd;
+  background-color: #fafafa;
+}
+.coffee-form {
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 2rem;
+  background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
@@ -62,4 +72,20 @@
 
 .submit-btn:hover {
   background: #005fa3;
+}
+.coffee-image {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  /* add this */
+}
+
+.coffee-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }

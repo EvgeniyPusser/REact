@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+.order-summary {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: violet;
+  box-shadow: 0 3px 10px rgba(89, 101, 22, 0.1);
+  font-family: sans-serif;
+}
+
+.order-summary h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
